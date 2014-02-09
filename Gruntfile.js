@@ -1,3 +1,4 @@
+/* vim: set tabstop=2 shiftwidth=2 softtabstop=2 expandtab : */
 /*
  * grunt-mocha-phantomjs
  * https://github.com/jdcataldo/grunt-mocha-phantomjs
@@ -35,7 +36,11 @@ module.exports = function(grunt) {
           'reporter': 'dot'
         },
         files: {
-          src: ['test/index.html']
+            src: [
+                'test/index.html',
+                'test/spec/global.html',
+                'test/spec/requirejs.html'
+            ]
         }
       },
       output: {
