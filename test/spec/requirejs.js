@@ -9,7 +9,7 @@
             "mocha": "./node_modules/mocha/mocha",
             "chai": "./node_modules/chai/chai",
             "spec": './test/spec',
-            "mochai": "./libs/mochai/mochai"
+            "mochai": "./node_modules/mochai/mochai"
         },
         "shim": {
         },
