@@ -1,3 +1,0 @@
-[submodule "libs/mochai"]
-	path = libs/mochai
-	url = git@github.com:fkei/mochai.git
